@@ -1,4 +1,3 @@
- 
 function fun1() {
     let fun2pro = new Promise(function (resolve, reject) {
         setTimeout(function(){
@@ -29,12 +28,12 @@ function fun3(dataIDNamefun2) {
                 //let data = {}
             resolve({...dataIDNamefun2, ...dataEmail});
                 //reject('Third API is not working');
-        // },2000);/*  */
+        },2000);/*  */
     });
     return fun4pro;
 }
 
-function fun4(dataIDNameEmailfun3) {
+function fun4(dataIDNameEmailfun3){
     return new Promise(function (resolve, reject) {
         setTimeout(function(){
             //console.log(typeof data_fun3.id);
@@ -63,7 +62,6 @@ async function action(){
 
 action();
 
-
 fun1().then(function(data1){
     //console.log(data);
     fun2(data1).then(function(data2){
@@ -80,5 +78,3 @@ fun1().then(function(data1){
         });
     });        
 });
-
-

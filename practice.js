@@ -1,58 +1,58 @@
-// let $_x= 2;
-// $X= "change"
+let $_x= 2;
+$X= "change"
 
-// console.log($X)
+console.log($X)
 
-// const name; 
-// name = 'Bawankar';
-// console.log(name);
+const name; 
+name = 'Bawankar';
+console.log(name);
 
-// const greet = "Good";
-// const morn = "Morninng";
+const greet = "Good";
+const morn = "Morninng";
 
-// console.log(greet +' '+ morn);
+console.log(greet +' '+ morn);
  
-// const result = `${greet} ${morn} Jayshree...`;
+const result = `${greet} ${morn} Jayshree...`;
 
-// console.log(result);
+console.log(result);
 
-// const value1 = 1234566779448328n;
-// const value2 = 2n;
-// const add = value1+value2;
-// console.log(add)
+const value1 = 1234566779448328n;
+const value2 = 2n;
+const add = value1+value2;
+console.log(add)
 
-// let a = 243329394954434334n;
-//  a = 2;
-//  let b = 5;
-// console.log(a+b)
+let a = 243329394954434334n;
+ a = 2;
+ let b = 5;
+console.log(a+b)
 
-// let number= 3/0
-// console.log(number);
-//  number= -3/0;
-// console.log(number)
-// var smart = 'lazy'/10;
-// console.log(smart);
+let number= 3/0
+console.log(number);
+ number= -3/0;
+console.log(number)
+var smart = 'lazy'/10;
+console.log(smart);
 
 
-// let number22= null
+let number22= null
 
-// console.log(number22);
+console.log(number22);
 
-// let name = 'jayshree';
-// let number = 27;
-// let a = null;
-// let flag= true;
+let name = 'jayshree';
+let number = 27;
+let a = null;
+let flag= true;
 
-// typeof(flag);
+typeof(flag);
 
-// console.log('4'-1);
+console.log('4'-1);
 
-// console.log(false - 9)
-// let a = Number(1045e+1)
-// console.log(a);
+console.log(false - 9)
+let a = Number(1045e+1)
+console.log(a);
 
-// let trial = +10.01
-// console.log(trial)
+let trial = +10.01
+console.log(trial)
 
-// let next = Math.floor(10.90)
-// console.log(next);
+let next = Math.floor(10.90)
+console.log(next);
